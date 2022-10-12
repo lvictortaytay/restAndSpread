@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="movieApp.css">
+
+</head>
+
+<body">
+
+
+
+  <div class="main-heading text-center">
+    <h1>My Favorite Movies</h1>
+
+
+
+<form class="entryForm">
+    <div>
+         title <input id="title" type="text" placeholder="enter title">
+        rating <input id="rating" type="number" placeholder="enter rating" required min="0" max="10">
+        <input type="submit" id="submit">
+    </div>
+</form>
+
+
+<br>
+
+<table class = "table">
+    <thead class="tableHead">
+        <tr>
+            <th> title  </th>
+            <th> rating  </th>
+        </tr>
+    </thead>
+
+    <tbody id="table-body">
+        
+    </tbody>
+</table>
+
+
+
+
+
+
+    
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="movieApp.js"></script>  
+</body>
+</html>
